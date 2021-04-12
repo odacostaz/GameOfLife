@@ -1,3 +1,7 @@
+//para la realizacion de este codigo se ha empleado las fromas utilizadas por Dot csv
+//se encuntra en https://www.youtube.com/channel/UCy5znSnfMsDwaLlROnZ7Qbg
+//tambien se ha usado como guia las ayudas de processing.org
+
 int tamano_Celda=10;
 color celula_Viva = color(255 , 0 , 0);
 color celula_Muerta=color(0);
