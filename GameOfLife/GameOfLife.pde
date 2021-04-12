@@ -127,4 +127,18 @@ void keyPressed(){
       }
     }
   }
+   if (key=='r' || key == 'R') {
+    for (int x=0; x<width/tamano_Celda; x++) {
+      for (int y=0; y<height/tamano_Celda; y++) {
+        float estado = random (100);
+        if (estado > probabilidad_vida) {
+          estado = 0;
+        }
+        else {
+          estado = 1;
+        }
+        celdas[x][y] = int(estado);
+      }
+    }
+  }
 }
